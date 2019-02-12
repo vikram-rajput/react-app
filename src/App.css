@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -31,3 +31,25 @@
     transform: rotate(360deg);
   }
 }
+
+.hero{
+  background:#ddd;
+  padding:20px;
+  display: block;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.card-body{
+  padding:15px;
+}
+.list-thumb{width:60px;}
+.result-list li { padding:15px 0;}
+.result-list li + li {border-top:1px solid #ddd;}
