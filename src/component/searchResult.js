@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class SearchResult extends Component {
   render() {
     return (
@@ -15,19 +14,17 @@ class SearchResult extends Component {
         <h5 className="mt-0"><a href="">Harry Potter and the Sorcerer's Stone</a></h5>
         <small>
         by J.K. Rowling
-</small>
+        </small>
         </div>
-
       </li>
       <li className="media">
-      <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " />
+     <a  href=""> <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " /></a>
       <div className="media-body">
-        <h5 className="mt-0">Harry Potter and the Sorcerer's Stone </h5>
+        <h5 className="mt-0"><a href="">Harry Potter and the Sorcerer's Stone</a></h5>
         <small>
         by J.K. Rowling
-</small>
-         </div>
-
+        </small>
+        </div>
       </li>
       </ul>
       </div>
@@ -36,5 +33,4 @@ class SearchResult extends Component {
     );
   }
 }
-
 export default SearchResult;

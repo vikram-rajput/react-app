@@ -50,6 +50,7 @@
 .card-body{
   padding:15px;
 }
+
 .list-thumb{width:60px;}
 .result-list li { padding:15px 0;}
 .result-list li + li {border-top:1px solid #ddd;}
