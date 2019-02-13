@@ -9,9 +9,11 @@ class Main extends Component {
       <div className="hero">
       <SearchInput />
       </div>
+      <div className="loader text-center mt-5">
+      <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+      </div>
       <div className="container">
       <SearchResult />
-     
       </div>
 
       </main>

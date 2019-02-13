@@ -9,7 +9,7 @@ class SearchResult extends Component {
       <hr />
       <ul className="list-unstyled result-list">
       <li className="media">
-     <a  href=""> <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " /></a>
+     <a  href="/detail"> <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " /></a>
       <div className="media-body">
         <h5 className="mt-0"><a href="">Harry Potter and the Sorcerer's Stone</a></h5>
         <small>
@@ -18,7 +18,7 @@ class SearchResult extends Component {
         </div>
       </li>
       <li className="media">
-     <a  href=""> <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " /></a>
+     <a  href="/detail"> <img src="https://images.gr-assets.com/books/1474154022l/3.jpg" className="mr-3 list-thumb" alt="Harry Potter and the Sorcerer's Stone " /></a>
       <div className="media-body">
         <h5 className="mt-0"><a href="">Harry Potter and the Sorcerer's Stone</a></h5>
         <small>
